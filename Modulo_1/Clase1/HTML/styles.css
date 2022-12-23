@@ -1,0 +1,40 @@
+.Boton1 {
+    width:130px;
+    background-color:rgb(249, 237, 237);
+    border:2px solid rgb(30, 216, 185);
+    border-radius:100px;
+    color:black;
+    text-align: center;
+    }
+
+.Boton2 {
+    height: 50px;
+    width:50px;
+    background-color:rgb(30, 216, 185);
+    border:2px solid rgb(30, 216, 185);
+    border-radius:50px;
+    margin: 20px;
+    }
+
+.Boton3 {
+    height: 50px;
+    width:200px;
+    background-color:rgb(45, 93, 253);
+    border:3px solid black;
+    margin: 20px;
+}
+
+.p1{
+    margin: 20px;
+    text-align: center;
+    vertical-align: top;
+    height: 5px;
+}
+
+.button2{
+    width:130px;
+    background-color:rgb(249, 237, 237);
+    border:2px solid rgb(30, 216, 185);
+    border-radius:100px;
+    color:black;
+}

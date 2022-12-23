@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#superior{
+    margin:auto;
+    width: 85%;
+    height: 80px;
+    padding: 20px 0px 0px 0px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+
+#inferior{
+    background-color: black;
+    margin:0px 200px 0px 0px;
+    width: 100%;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#container{
+    background-color: lightgray;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color:black;
+    columns: 2;
+}
+
+#left{
+    width: 30%;
+}
+
+#right{
+    width: 70%;
+    float: left;
+}
+
+ul li{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 5px 70px 5px 70px;
+}
+
+#row{
+    display: inline-block;
+    padding: 0px 0px 0px 120px;
+}
+
+#upperLeft{
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 20px 20px 20px;
+    border-radius: 25px;
+    background-color: white;
+    margin:30px 0px 0px 250px;
+
+}
+
+.p1 {
+    margin: 0.5em;
+  }
+
+ #centerLeft{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    margin:30px 0px 0px 250px;
+
+}  
+
+#lowerLeft{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    margin:30px 30px 0px 250px;
+
+}  
+
+button{
+    border: 1px solid;
+    padding: 7px;
+    box-shadow: 5px 5px;
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bold;
+}
+
+#btn1{
+    background-color: #2B78E4;
+    /* color:white; */
+}
+
+#btn3{
+    width:120px;
+    background-color:#FFE599;
+}
+
+#centerRight{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    margin:30px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.span1{
+    color: red;
+    font-size:10em;
+}
+
+.span2{
+    color: red;
+    font-size:2em;
+}
+
+.p2{
+    font-size: 2em;
+}

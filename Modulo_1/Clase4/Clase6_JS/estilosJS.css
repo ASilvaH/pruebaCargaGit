@@ -1,0 +1,31 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+p{
+font-size: small;
+
+}
+
+button{
+    padding: 7px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.azul{
+    background-color: blue;
+}
+
+button.verde{
+    background-color: green;
+}
+
+button.naranja{
+    background-color: orangered;
+}
+

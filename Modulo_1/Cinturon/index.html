@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examen Cinturón 1</title>
+    <script src="funciones.js"></script>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header>
+      <div id="superior">
+        <div id="row">
+          <div id="column">
+            <h1>Live Scores</h1>
+          </div>
+        </div>
+        <div id="row">
+          <div id="column">
+            <p>SJC Ninjas - 314</p>
+            <p>NS Pirates - 159</p>
+          </div>
+        </div>
+        <div id="row">
+          <div id="column">
+            <p>CHI Samurai - 0</p>
+            <p>Tul Wizards - 0</p>
+          </div>
+        </div>
+        <div id="row">
+          <div id="column">
+            <p>BOS Hackers - 13</p>
+            <p>TYO Youkai - 37</p>
+          </div>
+        </div>
+        <div id="row">
+          <div id="column">
+            <p>BOI Nights - 5</p>
+            <p>SEA Sea Lions - 11</p>
+          </div>
+        </div>
+      </div>
+      <div id="inferior">
+        <nav>
+          <ul>
+            <li id="bgColor"><h1>DSNN</h1></li>
+            <li>Football</li>
+            <li>Basquetball</li>
+            <li>Baseball</li>
+            <li>Soccer</li>
+            <li>More...</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="container">
+      <div id="left"></div>
+      <div id="upperLeft">
+        <h1>Top Stories</h1>
+        <p class="p1">Ninjas up big in 5th</p>
+        <p class="p1">Best sports cities</p>
+        <p class="p1">Choi joins Hall of Fame</p>
+        <p class="p1">Tournament underway</p>
+        <p class="p1">Samurai at Wizards...</p>
+      </div>
+      <div id="centerLeft">
+        <p>Customize Your DSNN</p>
+        <button type="button" id="btn1"></button>
+        <button type="button" id="btn2">Sign Up</button>
+      </div>
+      <div id="lowerLeft">
+        <p>Never miss a play</p>
+        <button type="button" id="btn3">Subscribe</button>
+      </div>
+      <div id="right">
+        <div id="centerRight">
+          <span class="span1">·</span>
+          <span class="span2">Live</span>
+          <span class="span3">Ninjas Leading Pirates</span>
+          <div id="row">
+            <div id="column">
+              <img src="images\sjc-ninjas.png" alt="" />
+              <p class="p1">San José</p>
+              <p class="p2">Ninjas</p>
+              <p class="p1">(10 w - 3 L)</p>
+              <p onclick="aumentar('N')" id="marcadorNinjas" class="p1"></p>
+            </div>
+            <div id="column">
+              <p>VS</p>
+              <span onclick="tiempoFuera()" id="timeRemaining"></span>
+              <span>remaining</span>
+              <p>5th period</p>
+            </div>
+            <div id="column">
+              <img src="images\ns-pirates.png" alt="" />
+              <p class="p1">Nova Scotia</p>
+              <p class="p2">Pirates</p>
+              <p class="p1">(12 w - 2 L)</p>
+              <p onclick="aumentar('P')" id="marcadorPiratas" class="p1"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer></footer>
+  </body>
+</html>

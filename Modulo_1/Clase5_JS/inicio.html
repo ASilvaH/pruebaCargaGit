@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Número For</title>
+  </head>
+  <body>
+    <script>
+      //PEDIMOS EL NÚMERO POR TECLADO
+      var numrep = prompt("Introduce numero de repeticiones");
+      //SI LO INTRODUCIDO ES UN NÚMERO
+      if (Number(numrep) == numrep) {
+        //SI ES UN NÚMERO ENTRE 1 Y 50
+        if (numrep > 0 && numrep <= 50) {
+          var rep, i;
+          //BUCLE QUE VA DESDE 0 HASTA numrep
+          for (i = 0; i <= numrep; i++) {
+            //BUCLE DESDE 1 HASTA i
+            for (rep = 1; rep <= i; rep++) {
+              document.write(rep);
+            }
+            document.write("<br>");
+          }
+        } else {
+          alert("El número introducido no es válido");
+        }
+      } else {
+        alert("No has introducido un número");
+      }
+    </script>
+  </body>
+</html>
